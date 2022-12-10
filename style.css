@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: chocolate;
+    padding: 5em 2em;
+    
+}
+.form{
+    background-color: cadetblue;
+    width: 40%;
+    margin:0 auto;
+    padding: 2em 1em;
+    display: flex;
+    max-width: 400px;
+    justify-content: center;
+    box-shadow: 4px 4px 2px black;
+}
+.form form>input{
+    margin-bottom: 2em;
+    padding: 1em 1em;
+    border-radius: 10px;
+    
+}
+.form form input[type="button"]{
+    background-color: rgb(182, 87, 19);
+    padding: 1em 3em;
+    color: white;
+    
+}
